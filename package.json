@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/contacts",
-    "dev": "nodemon src/contacts"
+    "start": "node index.js -a list",
+    "dev": "node index.js -a list",
+    "test1": "node index.js -a list",
+    "test2": "node index.js -a get -i 05olLMgyVQdWRwgKfg5J6",
+    "test3": "node index.js -a add -n Mango -e mango@gmail.com -p 322-22-22",
+    "test4": "node index.js -a remove -i qdggE76Jtbfd9eWJHrssH"
   },
   "keywords": [],
   "author": "",
